@@ -2,11 +2,13 @@
 
 ## Project Overview
 
-An exploratory data analysis project using Python to analyze Spotify listening history and uncover listening trends and user behavior.
+An exploratory data analysis project using Python to analyze Spotify listening history and uncover listening trends, listening behavior, and usage patterns.
+
+The project focuses on transforming raw listening history into meaningful insights through data cleaning, feature engineering, exploratory analysis, and visualization.
 
 ## Dataset
 
-The dataset contains 148,078 Spotify listening records covering the period from 2013 to 2024.
+The dataset contains **148,078 Spotify listening records** covering the period from **2013 to 2024**.
 
 The raw Spotify listening history dataset is excluded from this repository for privacy reasons.
 
@@ -35,7 +37,7 @@ The raw Spotify listening history dataset is excluded from this repository for p
 - Exploratory Data Analysis (EDA)
 - Feature engineering
 - Listening duration analysis
-- Yearly listening trends
+- Yearly listening trend analysis
 - Artist and track analysis
 - Album analysis
 - Peak listening hour analysis
@@ -46,14 +48,14 @@ The raw Spotify listening history dataset is excluded from this repository for p
 
 ## Key Findings
 
-- Total listening records: 148,078
-- Listening period: 2013–2024
-- Most active year: 2017
-- Most frequently played artist: The Beatles
-- Most frequently played track: Ode To The Mets
-- Peak listening hour: 00:00
-- Average listening duration: 2.14 minutes
-- Overall skip rate: 5.31%
+- **Total listening records:** 148,078
+- **Listening period:** 2013–2024
+- **Most active year:** 2017
+- **Most frequently played artist:** The Beatles
+- **Most frequently played track:** Ode To The Mets
+- **Peak listening hour:** 00:00
+- **Average listening duration:** 2.14 minutes
+- **Overall skip rate:** 5.31%
 
 ## Visualizations
 
@@ -68,11 +70,18 @@ The project includes visualizations covering:
 - Platform usage
 - Skip and shuffle behavior
 
-## Project Structure
+## How to Run
 
-```text
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vaishnavijagdale108/Spotify-Listening-Data-Analysis.git
+
+
+
 Spotify-Listening-Data-Analysis/
 │
 ├── Spotify_Listening_Data_Analysis.ipynb
 ├── README.md
+├── requirements.txt
 └── .gitignore
